@@ -1,0 +1,91 @@
+v 20130925 2
+P 2600 0 2600 500 1 0 0
+{
+T 2600 -900 5 10 0 0 180 0 1
+pintype=power
+T 2600 555 5 10 1 1 90 0 1
+pinlabel=GND
+T 2550 405 5 10 1 1 90 6 1
+pinnumber=1
+T 2200 -700 5 10 0 0 180 0 1
+pinseq=1
+}
+P 2200 0 2200 500 1 0 0
+{
+T 2700 -500 5 10 0 0 180 0 1
+pintype=power
+T 2200 555 5 10 1 1 90 0 1
+pinlabel=Vcc
+T 2150 405 5 10 1 1 90 6 1
+pinnumber=2
+T 2300 -300 5 10 0 0 180 0 1
+pinseq=2
+}
+P 1800 0 1800 500 1 0 0
+{
+T 1500 -300 5 10 0 0 180 0 1
+pintype=signal
+T 1800 555 5 10 1 1 90 0 1
+pinlabel=D0
+T 1750 405 5 10 1 1 90 6 1
+pinnumber=3
+T 1400 -500 5 10 0 0 180 0 1
+pinseq=3
+}
+P 1400 0 1400 500 1 0 0
+{
+T 900 -700 5 10 0 0 180 0 1
+pintype=signal
+T 1400 555 5 10 1 1 90 0 1
+pinlabel=D1
+T 1350 405 5 10 1 1 90 6 1
+pinnumber=4
+T 400 -300 5 10 0 0 180 0 1
+pinseq=4
+}
+P 1000 0 1000 500 1 0 0
+{
+T 400 -500 5 10 0 0 180 0 1
+pintype=signal
+T 1000 555 5 10 1 1 90 0 1
+pinlabel=RST
+T 950 405 5 10 1 1 90 6 1
+pinnumber=5
+T 700 -1000 5 10 0 0 180 0 1
+pinseq=5
+}
+P 600 0 600 500 1 0 0
+{
+T 100 -900 5 10 0 0 180 0 1
+pintype=signal
+T 600 555 5 10 1 1 90 0 1
+pinlabel=DC
+T 550 405 5 10 1 1 90 6 1
+pinnumber=6
+T -200 -100 5 10 0 0 180 0 1
+pinseq=6
+}
+P 200 0 200 500 1 0 0
+{
+T 1500 2900 5 10 0 0 180 0 1
+pintype=signal
+T 200 555 5 10 1 1 90 0 1
+pinlabel=CS
+T 150 405 5 10 1 1 90 6 1
+pinnumber=7
+T 1100 2600 5 10 0 0 180 0 1
+pinseq=7
+}
+B 0 500 2800 1100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 186 1095 8 10 1 1 0 0 1
+device=128x64 SH1106 OLED display
+T -14 -5 8 10 0 1 0 0 1
+description=OLED display
+T -14 -5 8 10 0 1 0 0 1
+numslots=0
+T -14 -5 8 10 0 1 0 0 1
+footprint=sh1106-0.96inch-OLED
+T 1186 1395 8 10 1 1 0 0 1
+refdes=DISP?
+T 186 1095 8 10 0 1 0 0 1
+value=128x64 SH1106 OLED display
